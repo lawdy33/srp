@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  padding-top: 65px;
+  padding-top: 82.5px;
 }
 
 /* apply a natural box layout model to all elements, but allowing components to change */
@@ -20,66 +20,82 @@ html {
 /* Navbar */
 
 .first {
-  font-family: 'Alex Brush', serif;
-  font-size: 2.75rem;
-  margin: 0rem 0.5rem 0rem 1rem;
+  font-family: 'shadows into light', serif;
+  font-size: 1.75rem;
+  margin: 0 0 0.25rem 0rem;
   color: white;
-  vertical-align: text-top;
-
 }
 
 .last {
   font-family: 'Marcellus SC', serif;
-  font-size: 2.75rem;
+  font-size: 1.75rem;
   color: white;
-  vertical-align: text-top;
-
 }
+
 
 .navbar-left a:hover {
   text-decoration: none;
-  color: red;
+  color: rgb(255,22,177) !important;
 }
 
 .navbar {
   background-color: rgb(22,39,232);
-  padding: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   color: white;
+  text-align: center;
+  margin-bottom: 0;
+  border: none;
 }
 
-.navbar-brand a {
-
+.navbar-brand  p {
+  margin-left: 1rem;
 }
 
-.navbar a {
+.navbar-nav a {
   color: white !important;
   font-size: 1.1rem;
+  margin-top: 8px;
+
+}
+
+.active a {
+  background-color: rgb(22,39,232) !important;
+  color: rgb(255,22,177) !important;
 }
 
 
 /* Design section */
 
 .art {
-  height: 10rem;
+  margin: 0;
   font-family: "oregano";
   font-size: 6rem;
   color: rgb(255,22,177);
   display: flex;
   justify-content: center;
-  align-content: center;
-  letter-spacing: 8px;
-  margin-top: 1rem; 
+  align-items: center;
+  letter-spacing: 6px;
+
+}
+
+@media only screen and (max-width: 1080px) {
+  .art {
+    font-size: 4rem;
+    max-width: 100%;
+  }
+
 }
 
 /* Jumbotron */
 
 .jumbotron {
   padding: 0;
-  margin: 0 50px 1.5rem 50px;
+  margin: 0;
   text-align: center;
   background-color: white;
   height: 40rem;
   color: white;
+  border: none;
 }
 
 .jumbotron p {
@@ -96,75 +112,43 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid black;
   font-family: "Open Sans";
   font-weight: 300;
-}
-
-.shadows {
-  background-image: url("../images/painting.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 1px solid black;
-  font-family: "Shadows Into Light";
-}
-
-.hand {
-  background-image: url("../images/painting.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 1px solid black;
-  font-family: "Just Another Hand";
+  border: none;
 }
 
 .oregano {
-  background-image: url("../images/painting.jpg");
+  background-image: url("../images/purplered.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid black;
   font-family: "oregano";
 }
 
-.kristi {
-  background-image: url("../images/painting.jpg");
+
+.marcellus {
+  background-image: url("../images/blackpurple.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid black;
-  font-family: "kristi";
+  font-family: "marcellus sc";
 }
 
-.pavanam {
-  background-image: url("../images/painting.jpg");
+.shadows {
+  background-image: url("../images/pinkyellow.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid black;
-  font-family: "pavanam";
+  font-family: "Shadows into light";
 }
 
-.canon {
-  background-image: url("../images/painting.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 1px solid black;
-  font-family: "IM Fell French Canon";
-}
-
-.didone {
-  background-image: url("../images/painting.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 1px solid black;
-  font-family: "Antic Didone";
-}
 
 /*Projects section */
+
+#projects h2 {
+  color: rgb(43,14,120);
+  font-family: "marcellus sc";
+}
 
 .image-container {
   overflow: hidden;
@@ -176,6 +160,26 @@ html {
 .image-container img {
   max-width: 100%;
   height: 100%;
+}
+
+.acd h3 {
+  font-family: "oregano";
+  color: rgb(255,22,177);
+  font-size: 3rem;
+}
+
+.acd p {
+  color: rgb(43,14,120);
+  font-size: 1.5rem;
+  font-family: "marcellus sc", serif;
+
+}
+
+.acd i {
+  font-style: italic;
+  color: rgb(43,14,120);
+  font-size: 1.5rem;
+  font-family: "marcellus sc", serif;
 }
 
 /*Footer */
