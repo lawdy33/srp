@@ -1,0 +1,195 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+
+}
+
+body {
+  padding-top: 65px;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Navbar */
+
+.first {
+  font-family: 'Alex Brush', serif;
+  font-size: 2.75rem;
+  margin: 0rem 0.5rem 0rem 1rem;
+  color: white;
+  vertical-align: text-top;
+
+}
+
+.last {
+  font-family: 'Marcellus SC', serif;
+  font-size: 2.75rem;
+  color: white;
+  vertical-align: text-top;
+
+}
+
+.navbar-left a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.navbar {
+  background-color: rgb(22,39,232);
+  padding: 1rem;
+  color: white;
+}
+
+.navbar-brand a {
+
+}
+
+.navbar a {
+  color: white !important;
+  font-size: 1.1rem;
+}
+
+
+/* Design section */
+
+.art {
+  height: 10rem;
+  font-family: "oregano";
+  font-size: 6rem;
+  color: rgb(255,22,177);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  letter-spacing: 8px;
+  margin-top: 1rem; 
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  padding: 0;
+  margin: 0 50px 1.5rem 50px;
+  text-align: center;
+  background-color: white;
+  height: 40rem;
+  color: white;
+}
+
+.jumbotron p {
+  font-size: 2rem;
+  max-width: 100%;
+}
+
+.jumbotron h1 {
+  margin-top: 15rem;
+}
+
+.open {
+  background-image: url("../images/painting.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+
+.shadows {
+  background-image: url("../images/painting.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  font-family: "Shadows Into Light";
+}
+
+.hand {
+  background-image: url("../images/painting.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  font-family: "Just Another Hand";
+}
+
+.oregano {
+  background-image: url("../images/painting.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  font-family: "oregano";
+}
+
+.kristi {
+  background-image: url("../images/painting.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  font-family: "kristi";
+}
+
+.pavanam {
+  background-image: url("../images/painting.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  font-family: "pavanam";
+}
+
+.canon {
+  background-image: url("../images/painting.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  font-family: "IM Fell French Canon";
+}
+
+.didone {
+  background-image: url("../images/painting.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  font-family: "Antic Didone";
+}
+
+/*Projects section */
+
+.image-container {
+  overflow: hidden;
+  max-width: 100%;
+  height: 20rem;
+
+}
+
+.image-container img {
+  max-width: 100%;
+  height: 100%;
+}
+
+/*Footer */
+
+.footer {
+  background-color: rgb(42,219,255);
+  color: white;
+  margin-top: 3rem;
+  padding: 3rem;
+}
+
+.footer .first {
+  margin: 1rem 0.5rem 3rem 0.5rem;
+
+}
+
+#last .footer {
