@@ -30,4 +30,15 @@ $(document).ready(function () {
       scrollMovement = scrollAction;
     }
   });
+
+// Image Popup //
+
+      //Examples of how to assign the Colorbox event to elements
+
+
+
+
+
+
+
 });

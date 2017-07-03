@@ -112,8 +112,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Open Sans";
-  font-weight: 300;
+  font-family: "Allura";
   border: none;
 }
 
@@ -122,7 +121,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "oregano";
+  font-family: "bilbo";
 }
 
 
@@ -175,11 +174,15 @@ html {
 
 }
 
+#two {
+  font-family: "open-sans", serif;
+}
+
 .acd i {
   font-style: italic;
   color: rgb(43,14,120);
-  font-size: 1.5rem;
-  font-family: "marcellus sc", serif;
+  font-size: 2rem;
+  font-family: "oregano", serif;
 }
 
 /*Footer */
@@ -197,3 +200,11 @@ html {
 }
 
 #last .footer {
+
+}
+
+/* Art Page */
+
+.artwork .image-container {
+  margin-bottom: 2rem;
+}
