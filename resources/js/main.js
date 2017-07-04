@@ -16,7 +16,7 @@ $(document).ready(function () {
 
 // hide navbar //
 
-  var scrollMovement = 0;
+  //var scrollMovement = 0;
 
   $(window).scroll(function (){
     var scrollAction = $(this).scrollTop();
