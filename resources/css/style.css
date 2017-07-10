@@ -339,3 +339,22 @@ body {
 #projects h2 {
   margin-top: 0;
 }
+
+.art span {
+  font-size: 2rem;
+  color: rgb(22,39,232);
+  font-family: "marcellus sc", sans-serif;
+}
+
+.art span a {
+  color: rgb(22,39,232);
+}
+
+@media only screen and (max-width: 768px) {
+  .art span {
+    font-size: 1.2rem;
+    font-weight: bold; 
+
+  }
+
+}
