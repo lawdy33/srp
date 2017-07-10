@@ -353,8 +353,29 @@ body {
 @media only screen and (max-width: 768px) {
   .art span {
     font-size: 1.2rem;
-    font-weight: bold; 
+    font-weight: bold;
 
+  }
+
+}
+
+/* About Page */
+
+.about {
+  text-align: justify;
+}
+
+.about p {
+  font-size: 1.33rem;
+  font-family: "open sans";
+  margin-top: 2rem;
+  color: rgb(22,39,232); /* rgb(255,22,177) */
+  line-height: 1.2;
+}
+
+@media only screen and (max-width: 768px) {
+  .about p {
+    font-size: 1rem;
   }
 
 }
