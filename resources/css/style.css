@@ -135,6 +135,10 @@ body {
   color: rgb(255,22,177);
 }
 
+.art a:hover {
+  color: rgb(42,219,255) !important;
+}
+
 @media only screen and (max-width: 1080px) {
   .art {
     font-size: 4rem;
@@ -246,8 +250,12 @@ body {
   font-size: 3rem;
 }
 
+.acd a h3:hover {
+  color: rgb(42,219,255) !important;
+}
+
 .acd a:hover {
-  color: rgb(255,22,177) !important;
+  color: rgb(42,219,255) !important;
 }
 
 .acd p {
