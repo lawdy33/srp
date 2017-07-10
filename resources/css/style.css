@@ -246,6 +246,10 @@ body {
   font-size: 3rem;
 }
 
+.acd a:hover {
+  color: rgb(255,22,177) !important;
+}
+
 .acd p {
   color: rgb(43,14,120);
   font-size: 1.5rem;
