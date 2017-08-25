@@ -6,12 +6,12 @@ $(document).ready(function () {
   $('.jumbotron').slick( {
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 3500,
+    autoplaySpeed: 2000,
     draggable: false,
     pauseOnFocus: false,
     pauseOnHover: false,
     fade: true,
-    speed: 4000
+    speed: 2000
   });
 
 // hide navbar //

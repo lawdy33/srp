@@ -164,7 +164,7 @@ body {
   margin: 0;
   text-align: center;
   background-color: white;
-  height: 40rem;
+  height: 39rem;
   color: white;
   border: none;
 }
@@ -178,39 +178,79 @@ body {
   margin-top: 15rem;
 }
 
-.open {
-  background-image: url("../images/painting.jpg");
+.one {
+  background-image: url("../images/carouselone.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Allura";
   border: none;
 }
 
-.oregano {
-  background-image: url("../images/purplered.jpg");
+.two {
+  background-image: url("../images/carouseltwo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "bilbo";
+  border: none;
 }
 
-
-.marcellus {
-  background-image: url("../images/blackpurple.jpg");
+.three {
+  background-image: url("../images/carouselthree.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "marcellus sc";
+  border: none;
 }
 
-.shadows {
-  background-image: url("../images/pinkyellow.jpg");
+.four {
+  background-image: url("../images/carouselfour.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Shadows into light";
+  border: none;
 }
+
+.five {
+  background-image: url("../images/carouselfive.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+.six {
+  background-image: url("../images/carouselsix.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+.seven {
+  background-image: url("../images/carouselseven.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+.eight {
+  background-image: url("../images/carouseleight.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+.nine {
+  background-image: url("../images/carouselnine.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+
 
 @media only screen and (max-width: 768px) {
   .jumbotron {
@@ -326,12 +366,17 @@ body {
   font-size: 1.5rem;
 }
 
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem 0 0.5rem;
+}
+
 #copy {
   margin-top: 2rem;
   margin-left: 1rem;
   font-size: 1rem;
-  display: block;
-  text-align: left;
+  display: flex;
 }
 
 .footer a {
@@ -342,6 +387,15 @@ body {
 
 .footer i {
   padding: 0.5rem 1rem 0 1rem;
+}
+
+#lawson a {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  display: flex;
+  color: white;
+  text-shadow: none;
 }
 
 
