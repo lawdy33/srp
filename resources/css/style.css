@@ -22,38 +22,47 @@ html {
 .first {
   font-family: 'bilbo', serif;
   font-size: 2.4rem;
-  margin: 0 0 0.25rem 0rem;
+  margin: 0 0 0.2rem 0rem;
   color: white;
+
 }
 
 .last {
   font-family: 'Marcellus SC', serif;
   font-size: 1.75rem;
   color: white;
+  letter-spacing: 1px;
 }
 
-  #name p:hover {
+#name span {
+  display: block;
+}
+
+#name span:hover {
   color: rgb(255,22,177) !important;
-  background-color: rgb(22,39,232) !important;
+  background-color: black !important; /*rgb(22,39,232) !important;*/
+}
+
+#name a:hover {
   text-decoration: none !important;
 }
 
 .nav li a:hover {
   color: rgb(255,22,177) !important;
-  background-color: rgb(22,39,232) !important;
+  background-color: black !important; /*rgb(22,39,232) !important;*/
   text-decoration: none !important;
 }
 
 .navbar {
-  background-color: rgb(22,39,232);
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: black; /*rgb(22,39,232);*/
+  padding: 0.25rem 1rem 0.75rem 1rem;
   color: white;
   text-align: center;
   margin-bottom: 0;
   border: none;
 }
 
-.navbar-brand  p {
+.navbar-brand p {
   margin-left: 1rem;
 }
 
@@ -65,7 +74,7 @@ html {
 }
 
 .active a {
-  background-color: rgb(22,39,232) !important;
+  background-color: black !important; /*rgb(22,39,232) !important;*/
   color: rgb(255,22,177) !important;
 }
 
@@ -77,7 +86,7 @@ html {
 
 @media only screen and (max-width: 768px) {
   .navbar {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 0;
     position: static;
     top: 0;
@@ -87,9 +96,10 @@ html {
 
   .navbar-nav a {
     color: white !important;
-    font-family: "oregano";
-    font-size: 1.5rem;
-    margin: 0;
+    /*font-family: "oregano";*/
+    font-size: 1rem;
+    margin: 0.4rem !important;
+    padding: 0 !important;
 }
 
 body {
@@ -106,12 +116,15 @@ body {
   }
 
   #SRP .first {
-    padding-right: 0.5rem;
+    padding-right: 0.3rem;
     color: rgb(255,22,177) !important;
+    font-size: 1.75rem;
+
   }
 
   #SRP .last {
     color: rgb(255,22,177) !important;
+    font-size: 1.5rem;
   }
 
 }
@@ -150,9 +163,10 @@ body {
 
 @media only screen and (max-width: 768px) {
   .art {
-    font-size: 2.5rem;
+    font-size: 2rem;
     max-width: 100%;
     margin-bottom: 0;
+    letter-spacing: normal;
   }
 
 }
@@ -254,7 +268,7 @@ body {
 
 @media only screen and (max-width: 768px) {
   .jumbotron {
-    height: 25rem;
+    height: 20rem;
   }
   .jumbotron h1 {
     margin-top: 6rem;
@@ -263,6 +277,10 @@ body {
 }
 
 /*Projects section */
+
+#projects {
+  margin-top: 1.5rem;
+}
 
 #projects h2 {
   color: rgb(43,14,120);
@@ -342,7 +360,7 @@ body {
 /*Footer */
 
 .footer {
-  background-color: rgb(42,219,255);
+  background-color: black; /*rgb(42,219,255);*/
   color: white;
   margin-top: 3rem;
   padding: 2rem 0 1rem 0;
@@ -398,6 +416,29 @@ body {
   text-shadow: none;
 }
 
+@media only screen and (max-width: 768px) {
+  .footer .first {
+    font-size: 1.5rem;
+
+  }
+
+  .footer .last {
+    font-size: 1.5rem;
+  }
+
+  .footer ul {
+    font-size: 1rem;
+  }
+
+  #copy {
+    font-size: 0.6rem;
+  }
+
+    #lawson a {
+      font-size: 0.6rem;
+    }
+
+}
 
 /* Art Page */
 
@@ -433,48 +474,30 @@ body {
   color: black;
   font-size: 1.4rem;
   letter-spacing: normal;
+  margin: 0 4rem 0 4rem;
+}
+
+.pouring p {
+  font-size: 0.9rem;
+  color: rgb(22,39,232);
+  font-style: italic;
 }
 
 @media only screen and (max-width: 768px) {
   .art span {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
 
   }
-
-}
-
-/* Soulspacing Page */
-
-/*.jumbotron-fluid.art.soul p {
-  margin-bottom: 0;
-}
-
-.soul span {
-    margin-bottom: 2rem;
-    font-weight: bold;
-}
-
-.row .soul p {
-  font-size: 1.1rem;
-}
-
-.row .soul h3 {
-  text-align: center;
-  color: rgb(22,39,232);
-  margin-bottom: 1.5rem;
-}
-
-@media only screen and (max-width: 768px) {
-  .row .soul p {
-    font-size: 0.9rem;
+  .pouring p {
+    font-size: 0.75rem;
   }
 
-  .row .soul h3 {
-    font-size: 1.5rem;
-  }
+  .guarantee span {
+    font-size: 1rem;
+    margin: 0 2rem 0 2rem;
 
-}*/
+}
 
 /* About Page */
 
