@@ -134,22 +134,27 @@ body {
 
 .art {
   margin: 0;
-  font-family: "oregano";
-  font-size: 6rem;
+  font-family: 'Marcellus SC', serif;
   color: rgb(255,22,177);
   display: flex;
   justify-content: center;
   align-items: center;
-  letter-spacing: 6px;
+  letter-spacing: 5px;
   text-align: center;
 }
 
-.art a {
-  color: rgb(255,22,177);
+.art p a {
+  color: black;
+  font-size: 3.5rem;
+}
+
+.art p {
+  color: black;
+  font-size: 3.5rem;
 }
 
 .art a:hover {
-  color: rgb(42,219,255) !important;
+  color: rgb(255,22,177) !important;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -163,7 +168,7 @@ body {
 
 @media only screen and (max-width: 768px) {
   .art {
-    font-size: 2rem;
+    font-size: 1.75rem;
     max-width: 100%;
     margin-bottom: 0;
     letter-spacing: normal;
