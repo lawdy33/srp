@@ -135,7 +135,6 @@ body {
 .header {
   margin: 0;
   font-family: 'Marcellus SC', serif;
-  color: rgb(255,22,177);
   letter-spacing: 2px;
   text-align: center;
 }
@@ -325,11 +324,11 @@ body {
 }
 
 .acd a h3:hover {
-  color: rgb(42,219,255) !important;
+  color: rgb(255,22,177) !important;
 }
 
 .acd a:hover {
-  color: rgb(42,219,255) !important;
+  color: rgb(255,22,177) !important;
 }
 
 .acd p {
