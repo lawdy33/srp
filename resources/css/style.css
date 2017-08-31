@@ -319,7 +319,7 @@ body {
 
 .acd h3 {
   font-family: "oregano";
-  color: rgb(255,22,177);
+  color: black;
   font-size: 3rem;
   text-align: left;
 }
@@ -333,7 +333,7 @@ body {
 }
 
 .acd p {
-  color: rgb(43,14,120);
+  color: rgb(22,39,232); /*rgb(43,14,120);*/
   font-size: 1.5rem;
   font-family: "marcellus sc", serif;
   text-align: center;
