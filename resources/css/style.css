@@ -132,43 +132,48 @@ body {
 
 /* Art Energy Design section */
 
-.art {
+.header {
   margin: 0;
   font-family: 'Marcellus SC', serif;
   color: rgb(255,22,177);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   text-align: center;
 }
 
-.art p a {
+.header p a {
   color: black;
   font-size: 3.5rem;
 }
 
-.art p {
+.header p {
   color: black;
   font-size: 3.5rem;
 }
 
-.art a:hover {
+.header a:hover {
   color: rgb(255,22,177) !important;
 }
 
-@media only screen and (max-width: 1080px) {
-  .art {
-    font-size: 4rem;
-    max-width: 100%;
+.header span {
+  color: rgb(255,22,177);
+  font-size: 3rem;
+}
 
+@media only screen and (max-width: 1080px) {
+  .header p {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+
+  .header span {
+    font-size: 1.5rem;
   }
 
 }
 
 @media only screen and (max-width: 768px) {
-  .art {
-    font-size: 1.75rem;
+  .header p a{
+    font-size: 1.8rem;
     max-width: 100%;
     margin-bottom: 0;
     letter-spacing: normal;
@@ -465,42 +470,51 @@ body {
   font-size: 3rem;
 }
 
-.art span {
+.guarantee {
+  color: black;
+  text-align: center;
+}
+
+.guarantee p {
   font-size: 2rem;
-  color: rgb(22,39,232);
   font-family: "marcellus sc", sans-serif;
 }
 
-.art span a {
-  color: rgb(22,39,232);
+.guarantee p a {
+  color: black;
+}
+
+.guarantee p a:hover {
+  color: rgb(255,22,177);
 }
 
 .guarantee span {
-  color: black;
-  font-size: 1.4rem;
-  letter-spacing: normal;
-  margin: 0 4rem 0 4rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
-.pouring p {
+.artwork.pouring p {
   font-size: 0.9rem;
-  color: rgb(22,39,232);
+  color: black;
   font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
 }
 
 @media only screen and (max-width: 768px) {
-  .art span {
-    font-size: 1.1rem;
-    font-weight: bold;
-
+  .guarantee span {
+    font-size: 0.75rem;
+    font-weight: normal;
   }
-  .pouring p {
+
+  .guarantee p {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .artwork.pouring p {
     font-size: 0.75rem;
   }
-
-  .guarantee span {
-    font-size: 1rem;
-    margin: 0 2rem 0 2rem;
 
 }
 
@@ -514,7 +528,7 @@ body {
   font-size: 1.33rem;
   font-family: "open sans";
   margin-top: 2rem;
-  color: rgb(22,39,232); /* rgb(255,22,177) */
+  color: black; /* rgb(255,22,177) */
   line-height: 1.2;
 }
 
