@@ -524,16 +524,17 @@ body {
 }
 
 .about p {
-  font-size: 1.33rem;
+  font-size: 1.1rem;
   font-family: "open sans";
-  margin-top: 2rem;
+  margin-top: 1rem;
   color: black; /* rgb(255,22,177) */
   line-height: 1.2;
 }
 
 @media only screen and (max-width: 768px) {
   .about p {
-    font-size: 1rem;
+    font-size: .8rem;
+    margin-top: 1rem;
   }
 
 }
