@@ -341,8 +341,8 @@ body {
 }
 
 .flowers img {
-  height: 16rem;
-  width: 80%;
+  height: auto;
+  width: 33%;
 }
 
 .acd h3 {
