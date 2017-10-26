@@ -397,6 +397,10 @@ body {
   .acd {
     margin-bottom: 2rem;
   }
+  .image-container {
+    height: 12rem;
+    border: none;
+  }
 
 }
 
