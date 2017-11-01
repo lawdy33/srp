@@ -328,7 +328,7 @@ body {
   width: 100%;
   height: 17rem;
   text-align: center;
-  border: 2px solid black;
+  border: none;
 }
 
 .image-container img {
@@ -418,7 +418,6 @@ body {
   margin: 1rem 0.5rem 3rem 0.5rem;
   text-shadow: 1px 1px rgb(255,22,177);
   font-size: 2.5rem;
-
 }
 
 .footer .last {
@@ -440,6 +439,7 @@ body {
 #copy {
   margin-top: 2rem;
   margin-left: 1rem;
+  margin-bottom: 1rem;
   font-size: 1rem;
   display: flex;
 }
